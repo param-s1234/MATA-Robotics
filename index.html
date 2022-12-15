@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MATA Robotics</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url(single-earth-HDmjV5EyLow-unsplash.jpg);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">MATA Robotics Chat Bot</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+  </div>
+</div>
+
+<div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Robotics_MATA"
+  agent-id="2d71cdb2-75ee-4bdb-9a32-662fb745047a"
+  language-code="en";
+  class="chatbot"
+></df-messenger>
+
+</div>
+</body>
+</html>
